@@ -1,0 +1,155 @@
+
+body{
+    background-color:#FEF7EA;
+    font-size: 1.2rem;
+    font-family:'Open Sans', 'sans-serif';
+}
+
+.wrapper{
+    background-color: white;
+    max-width: 90vw;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+header nav ul{
+    background-color: #99D7D9;
+    min-width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
+    border-radius: 0.2em;
+    font-weight: bold;
+}
+header ul li {
+    list-style: none;
+}
+header li > *{
+    text-decoration: none;
+}
+
+header .brand{
+    color: #666;
+    font-family:'Pacificio', 'Georgia';
+    font-size: 1.6em;
+    padding: 0.2em; 
+    text-align:center;
+
+
+}
+
+header .brand span{
+    color: #666;
+    font-family:'Open Sans', 'sans-serif';
+    font-size: 0.8em;
+    padding: 0.1em;
+}
+
+#hero{
+    min-height: 400px;
+    background: #FEF7EA url("./pug.jpg") center no-repeat;
+
+}
+
+
+main{
+    overflow: hidden;
+    display: flex;
+    padding: 1.5em;
+}
+
+#blogContent{
+
+    width: 70% ;
+}
+
+aside {
+    background-color: #E6D7E7;
+    padding: 1.8em;
+    box-sizing: border-box;
+    width: 30%;
+    flex-wrap: wrap;
+
+
+}
+
+aside h3{
+    background-color: #52375d;
+    color: white;
+    padding: 1em;
+    margin-top: 0;
+}
+
+a{
+    color:#333;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color:#0062ff;
+}
+
+aside ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside a{
+    padding: 0.8em 0;
+    display: block;
+    text-decoration: none;
+}
+
+article h2{
+    margin-bottom: 0;
+    font-size: 1.7em;
+    color:#333;
+    padding: 0;
+    text-decoration: none;
+}
+
+article img{
+    display: flex;
+    height:400px;
+    width:800px;
+    object-fit: fill;
+    border: 2px solid #138289;
+    max-width: 100%;
+    height: auto;
+}
+
+article span{
+    font-style: italic;
+}
+
+article p{
+    margin-top: 0.8em;
+    color:#333;
+    padding: 0;
+}
+
+article{
+    margin-bottom: 3.7em;
+    margin-top: 3.7em;
+}
+
+footer .container{
+    background-color: #99D7D9;
+    justify-content: center;
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9em;
+    clear:both
+}
+
+
+footer .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0.5rem;
+    padding-top: 2rem;
+}
